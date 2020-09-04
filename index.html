@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<HTML lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel='shortcut icon' href="../img/logoPagina.jpg">
+    <title>Draw Teams</title>
+
+    <link rel='stylesheet' href="css/reset.css">
+    <link rel='stylesheet' href="css/cabecalho.css">
+    <link rel='stylesheet' href="css/conteudo principal.css">
+    <link rel='stylesheet' href="css/formulario nomes.css">
+    <link rel='stylesheet' href="css/caixa sorteio.css">
+    <link rel='stylesheet' href="css/botoes.css">
+    <link rel='stylesheet' href="css/rodape.css">
+</head>
+
+<body>
+    <header class='cabecalho'>
+        <h1 class='titulo__cabecalho'>Draw Teams</h1>
+    </header>
+    <main class="conteudo__principal">
+        <div class='container__nomes'>
+            <h1 class='titulo__lista-jogadores'>Jogadores</h1>
+            <form class='formulario__lista-jogadores'>
+                <label class='ordem__numerica'>1º<input id='valor1' class='campo__nome' type='text' required></label>
+                <label class='ordem__numerica'>2º<input id='valor2' class='campo__nome' type='text' required></label>
+                <label class='ordem__numerica'>3º<input id='valor3' class='campo__nome' type='text' required></label>
+                <label class='ordem__numerica'>4º<input id='valor4' class='campo__nome' type='text' required></label>
+                <label class='ordem__numerica'>5º<input id='valor5' class='campo__nome' type='text' required></label>
+                <label class='ordem__numerica'>6º<input id='valor6' class='campo__nome' type='text' required></label>
+                <label class='ordem__numerica'>7º<input id='valor7' class='campo__nome' type='text' required></label>
+                <label class='ordem__numerica'>8º<input id='valor8' class='campo__nome' type='text' required></label>
+                <label class='ordem__numerica'>9º<input id='valor9' class='campo__nome' type='text' required></label>
+                <label class='ordem__numerica'>10º<input id='valor10' class='campo__nome' type='text' required></label>
+            </form>
+        </div>
+        <div class='container__resultado'>
+            <div class='caixa__ajuste'>
+                <section class='caixa__time-a'>
+                    <h1 class='titulo__time-a'>Time A:</h1>
+                </section>
+                <section class='caixa__time-b'>
+                    <h1 class='titulo__time-b'>Time B:</h1>
+                </section>
+            </div>
+            <div id='botoesNumericos' class='container__botoes'>
+                <button id='botaoNomes' class='botao'>Sorteio Nomes</button>
+                <button id='botaoRemover' class='botao'>Limpar</button>
+                <button id='botaoSorteio' class='botao'>Sorteio Númerico</button>
+            </div>
+        </div>
+    </main>
+    <footer class=rodape>
+        <aside class='conteudo__rodape'>
+            David Teixeira &copy;
+            <div class='imagem__rodape'>
+                <img src="../img/github.png" class='github'>
+            </div>
+        </aside>
+    </footer>
+</body>
+<script src="js/sorteio.js"></script>
+<script src="js/timeNumeros.js"></script>
+<script src="js/timeNomes.js"></script>
+<script src="js/pegandoNomes.js"></script>
+
+</HTML>
