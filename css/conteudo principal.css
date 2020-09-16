@@ -1,0 +1,17 @@
+.conteudo__principal{
+    background:url(../img/fundoPagina.jpg) center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+@media screen and (min-width:1024px){
+    .conteudo__principal{
+        flex-direction: row;
+        height: auto;
+
+    }
+}

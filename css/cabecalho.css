@@ -1,0 +1,24 @@
+.cabecalho{
+    background: black;
+    height: auto;
+}
+.titulo__cabecalho{
+    font-size:6rem;
+    font-family: Cambria, sans-serif;
+    text-transform: uppercase;
+    color: lightgreen;
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width:1024px){
+    
+    .titulo__cabecalho{
+        font-size: 2rem;
+        padding:0.5rem;
+        color:lightgreen;
+        text-transform: uppercase;
+    }
+}

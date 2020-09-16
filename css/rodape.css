@@ -1,0 +1,30 @@
+.rodape{
+    background: black;
+    color:lightgreen;
+    height: 5rem ;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.conteudo__rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+    width: 100%;
+    font-size: 2rem;
+    font-family: Cambria,sans-serif;
+    font-weight: bold;
+}
+.github {
+    width: 30px;
+}
+
+@media screen and (min-width:1024px){
+    .rodape{
+        max-height: 50px;
+    }
+    .conteudo__rodape{
+        font-size:1rem;
+    }
+}

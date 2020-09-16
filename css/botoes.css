@@ -1,0 +1,30 @@
+.container__botoes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.botao{
+    width: 17rem;
+    height: 15rem;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: green;
+    color: white;
+    font-family: Cambria, sans-serif;
+    font-size: 3rem;
+}
+
+@media screen and (min-width:1024px){
+    .container__botoes{
+        margin-top: 0;
+    }
+    .botao{
+        width: 100px;
+        height: 70px;
+
+        font-size: 1rem;
+    }
+}

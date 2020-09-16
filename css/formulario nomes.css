@@ -1,0 +1,55 @@
+.container__nomes{
+    display: flex;
+    background:rgba(0,0,0,0.9) ;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.titulo__lista-jogadores{
+    text-align: center;
+    font-size: 5rem;;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color:lightgreen;
+    font-family: Cambria, sans-serif;
+}
+
+.formulario__lista-jogadores{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.ordem__numerica{
+    font-size: 4rem;
+    color:white;
+    display: block;
+    text-align: right;
+    font-family: Cambria, sans-serif;
+    padding: 0.4rem;
+}
+
+.campo__nome{
+    width: 35rem;
+    height: 5rem;
+    margin-left: 2rem;
+    display: inline-block;
+}
+
+@media screen and (min-width:1024px){
+    .titulo__lista-jogadores{
+        font-size: 2rem;
+    }
+    .ordem__numerica{
+        font-size: 2rem;
+    }
+    .campo__nome{
+        width: 12rem;
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+}   
