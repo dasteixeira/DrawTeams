@@ -38,6 +38,7 @@
     height: 5rem;
     margin-left: 2rem;
     display: inline-block;
+    font-size: 3rem;
 }
 
 @media screen and (min-width:1024px){
