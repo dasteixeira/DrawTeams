@@ -10,11 +10,10 @@
     height: 15rem;
     align-items: center;
     text-transform: uppercase;
-    font-weight: bold;
     background: green;
     color: white;
-    font-family: Cambria, sans-serif;
-    font-size: 3rem;
+    font-family: 'Carter One', cursive, sans-serif;
+    font-size: 2.5rem;
 }
 
 @media screen and (min-width:1024px){

@@ -6,6 +6,7 @@
     align-items: center;
     padding: 1rem;
     margin-bottom: 3rem;
+    border-radius: 10px;
 }
 
 .titulo__lista-jogadores{
@@ -13,9 +14,8 @@
     font-size: 5rem;;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    font-weight: bold;
     color:lightgreen;
-    font-family: Cambria, sans-serif;
+    font-family: 'Carter One', cursive, sans-serif;
 }
 
 .formulario__lista-jogadores{
@@ -25,11 +25,11 @@
 }
 
 .ordem__numerica{
-    font-size: 4rem;
+    font-size: 3.5rem;
     color:white;
     display: block;
     text-align: right;
-    font-family: Cambria, sans-serif;
+    font-family: 'Carter One', cursive, sans-serif;
     padding: 0.4rem;
 }
 
@@ -46,11 +46,12 @@
         font-size: 2rem;
     }
     .ordem__numerica{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .campo__nome{
         width: 12rem;
         height: 2rem;
         margin-left: 0.5rem;
+        font-size:1rem;
     }
 }   

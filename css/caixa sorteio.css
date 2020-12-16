@@ -19,11 +19,10 @@
 }
 
 .titulo__time-a, .titulo__time-b{
-    font-weight: bold;
     font-size: 5.5rem;;
     color:lightgreen;
     text-transform: uppercase;
-    font-family: Cambria, sans-serif;
+    font-family: 'Carter One', cursive, sans-serif;
 }
 .caixa__time-a{
     margin-right: 2rem;
@@ -33,7 +32,7 @@
 .listaA , .listaB{
     font-size: 4.5rem;
     color: white;
-    font-family: Cambria, sans-serif;
+    font-family: 'Carter One', cursive, sans-serif;
     display: flex;
     justify-content: center;
 }

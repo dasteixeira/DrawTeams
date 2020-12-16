@@ -4,12 +4,11 @@
 }
 .titulo__cabecalho{
     font-size:6rem;
-    font-family: Cambria, sans-serif;
+    font-family: 'Carter One', cursive, sans-serif;
     text-transform: uppercase;
     color: lightgreen;
     padding: 2rem;
     text-align: center;
-    font-weight: bold;
 }
 
 
