@@ -32,4 +32,11 @@
     .conteudo__rodape{
         font-size:1rem;
     }
+    .github {
+        width: 35px;
+    }
+    
+    .linkedin{
+        width: 35px;
+    }
 }
