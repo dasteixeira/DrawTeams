@@ -8,7 +8,7 @@
 .conteudo__rodape{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 1rem;
     width: 100%;
     font-size: 2rem;
@@ -17,10 +17,12 @@
 }
 .github {
     width: 25px;
+    margin-left: 10px;
 }
 
 .linkedin{
     width: 25px;
+    margin-left: 10px;
 }
 
 @media screen and (min-width:1024px){
