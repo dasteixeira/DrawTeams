@@ -23,9 +23,6 @@ function resultadoNumeros() {
     localTimeB.appendChild(timeBtagP);
     timeBtagP.textContent = sorteioTime.equipeB();
 
-    console.log('Time A:', timeA);
-    console.log('Time B:', timeB);
-
     ativo = true;
 }
 
