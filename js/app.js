@@ -43,8 +43,6 @@ botaoNomes.addEventListener('click', () => {
 
     if (!ativo && !campos){
         resultadoNomes();
-        console.log("Nomes A:", nomesA);
-        console.log("Nomes B:", nomesB);
     } else if(ativo){
         alert('PRESSIONE "LIMPAR" PARA UM NOVO SORTEIO');
     }else if (campos){
